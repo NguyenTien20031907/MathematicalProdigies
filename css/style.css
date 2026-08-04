@@ -1,7 +1,29 @@
 .intro img{
-    width:100%;
+    width: 100%;
 }
 
-.featured img {
+.featured, .card img {
     width: 300px;
+}
+
+header>a {
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+nav li {
+    display: inline-block;
+    width: 33%;
+    border: solid black;
+    text-align: center;
+}
+
+#current-page {
+    text-transform: uppercase;
 }
