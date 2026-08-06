@@ -100,9 +100,11 @@ main {
     background: #faf7f0;
     padding: 2rem;
     border-radius: 8px;
+    flex-wrap: wrap;
 }
 
 .featured img {
+    display: inline-block;
     flex: 0 0 17.5rem;
     width: 17.5rem;
     height: 25rem;
@@ -115,6 +117,11 @@ main {
 
 .featured:hover img {
     transform: scale(1.05);
+}
+
+.featured-text {
+    display: inline-block;
+    width: max(17.5rem, 50%);
 }
 
 
@@ -134,7 +141,7 @@ main {
     font-weight: bold;
     text-decoration: none;
     border-bottom: 1px solid transparent;
-    transition: border-color 0.2s ease; 
+    transition: border-color 0.2s ease;
 }
 
 .featured a:hover {
