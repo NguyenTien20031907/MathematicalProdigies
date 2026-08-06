@@ -229,6 +229,26 @@ details summary:hover {
     color: #7a3d0e;
 }
 
+.wiki-link {
+    display: inline-flex;
+    align-items: center;
+    color: #7a3d0e;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+.wiki-link:hover {
+    border-bottom-color: #7a3d0e;
+}
+
+.wiki-link::after {
+    content: "↗";
+    font-size: 0.85rem;
+}
+
 /* ---------- Timeline ---------- */
 
 
